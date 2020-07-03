@@ -2,6 +2,7 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300;1,400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +12,9 @@
 
 :root{
     --font-primary: "Baloo Da 2", serif;
-    --font-secundary: "Josefin Slab", serif;
+    --font-secundary: "Poppins", sans-serif;
     --font-action: "Muli", serif;
+    
     
 }
 
@@ -324,8 +326,8 @@ header{
 .banner p{
     font-family: var(--font-secundary);
     color: #fff;
-    font-size: 2rem;
     text-shadow: .2rem .2rem rgba(0, 0, 0, .4);
+    
     margin-bottom: 2rem;
     opacity: 0;
     animation: moveBanner 1s 0.7s forwards;
@@ -336,8 +338,8 @@ header{
     color: #fff;
     letter-spacing: .1rem;
     text-transform: uppercase;
-    background: #6a3093; 
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093); 
+    background: #641d97; 
+    background: -webkit-linear-gradient(to left #a044ff, #6a3093); 
     background: linear-gradient(to right, #a044ff, #6a3093); 
     padding: 1rem 3rem;
     border: none;
@@ -353,6 +355,24 @@ header{
 }
 
 
+.typed-text{
+    font-weight: normal;
+    color:rgb(#6a3093);
+
+}
+
+.cursor{
+    display: inline-block;
+    width: block;
+    background-color:transparent;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+.cursor.typing{
+    animation: none;
+    color: transparent;
+}
 
 
     

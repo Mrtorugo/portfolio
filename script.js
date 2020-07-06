@@ -1,7 +1,6 @@
 document.querySelector(".hamburguer").addEventListener("click", () =>
     document.querySelector(".container").classList.toggle("show-menu")
 );
-
 const typedtextspan = document.querySelector(".typed-text");
 const cursorspan = document.querySelector(".cursor");
 

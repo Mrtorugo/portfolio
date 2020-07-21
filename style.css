@@ -287,7 +287,8 @@ header{
 }
 
 .conhecimento-text{
-    font-family: var(--font-secundary);
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
     margin-top: 1rem;
 }
 
